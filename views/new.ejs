@@ -4,10 +4,18 @@
 
 <a href="/places">Back</a>
 
+<div class="container">
+<div class="row justify-content-start">
+<div class="col-4">
 <form action="/places" method="POST">
-    <input type="text" placeholder="Name" name="name"><br>
-    <input type="text" placeholder="Your image URL" name="pic"><br>
-    <button>Submit</button>
+    <div class="form-group">
+        <input class="form-control" type="text" placeholder="Name" name="name"><br>
+        <input class="form-control" type="text" placeholder="Your image URL" name="pic"><br><br>
+        <button class="btn-lg btn-primary">Submit</button>
+    </div>
 </form>
+</div>
+</div>
+</div>
 
 <% include partials/footer %>
