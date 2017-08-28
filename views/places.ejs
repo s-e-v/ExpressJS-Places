@@ -1,0 +1,10 @@
+<h1>Places page</h1>
+
+<p>Welcome</p>
+
+<% places.forEach(function(place){ %>
+    <div>
+        <h4><%= place.name %></h4>
+        <img src="<%=place.pic%>"> 
+    </div>
+<% }); %>
