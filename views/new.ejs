@@ -1,0 +1,13 @@
+<% include partials/header %>
+
+<h1>Create a new place</h1>
+
+<a href="/places">Back</a>
+
+<form action="/places" method="POST">
+    <input type="text" placeholder="Name" name="name"><br>
+    <input type="text" placeholder="Your image URL" name="pic"><br>
+    <button>Submit</button>
+</form>
+
+<% include partials/footer %>
